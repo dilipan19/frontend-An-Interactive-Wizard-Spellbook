@@ -19,5 +19,12 @@
     "description": "Pure magical energy",
     "element": "Arcane",
     "power": 7
+  },
+  {
+    "id": "4",
+    "name": "Chukuni Manguni",
+    "description": "Bad magical energy",
+    "element": "Alien",
+    "power": 9
   }
 ]
