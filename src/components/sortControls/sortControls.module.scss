@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.select {
+  padding: 0.6rem;
+  border-radius: 10px;
+  background: rgba(40, 30, 70, 0.8);
+  border: 2px solid #8b63ff;
+  color: #eadaff;
+}
+
+.toggleWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  label {
+    color: #cbb3ff;
+  }
+}

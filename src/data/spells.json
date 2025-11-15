@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Fireball",
+    "description": "A fiery blast",
+    "element": "Fire",
+    "power": 5
+  },
+  {
+    "id": "2",
+    "name": "Ice Shard",
+    "description": "Sharp ice attack",
+    "element": "Ice",
+    "power": 4
+  },
+  {
+    "id": "3",
+    "name": "Arcane Burst",
+    "description": "Pure magical energy",
+    "element": "Arcane",
+    "power": 7
+  }
+]

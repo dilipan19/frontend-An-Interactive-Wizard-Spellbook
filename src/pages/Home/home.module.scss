@@ -1,0 +1,50 @@
+.home {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 2rem;
+
+  background: radial-gradient(circle at center, #1f1a33 0%, #0c0917 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.header {
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;  // content stays readable
+  margin-bottom: 2rem;
+
+  .title {
+    font-size: 3rem;
+    color: #e2d3ff;
+    text-shadow: 0 0 15px rgba(165, 127, 255, 0.7);
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    color: #bda6ff;
+  }
+}
+
+.controls {
+  width: 100%;
+  max-width: 1200px;   // no shrinking
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;   // responsive
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+.main {
+  width: 100%;
+  max-width: 1200px;   // content spreads but stays readable
+  display: flex;
+  justify-content: center;
+}
